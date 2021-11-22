@@ -1,7 +1,7 @@
 
 # Pokeren
 
-A solution to the Poker Hands problem
+A solution to the Poker Hands Exercise
 
 ## Test
 

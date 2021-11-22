@@ -3,9 +3,9 @@
 
 A solution to the Poker Hands problem
 
-# Usage
-Test
-    mix test
+## Test
+
+ Run `mix test`
 
 ## Example
 Run `iex -S mix`

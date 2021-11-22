@@ -8,8 +8,9 @@ Test
     mix test
 
 ## Example
-
+Run `iex -S mix`
 ```elixir
+
 hand1 = "2H 3D 5S 9C KD"
 hand2 = "2C 3H 4S 8C AH"
 

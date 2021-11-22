@@ -1,25 +1,23 @@
 
-# pokeren
-=======
-# Poker
+# Pokeren
 
-**TODO: Add description**
+A solution to the Poker Hands problem
 
-## Installation
+# Usage
+Test
+    mix test
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `poker` to your list of dependencies in `mix.exs`:
+## Example
 
 ```elixir
-def deps do
-  [
-    {:poker, "~> 0.1.0"}
-  ]
-end
-```
+hand1 = "2H 3D 5S 9C KD"
+hand2 = "2C 3H 4S 8C AH"
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/poker](https://hexdocs.pm/poker).
+Poker.main(hand1) 
+Poker.main(hand2) 
+
+## Output
+2H 3D 5S 9C KD
+2C 3H 4S 8C AH,  White wins - high card 
 
 

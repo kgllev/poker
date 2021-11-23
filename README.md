@@ -14,8 +14,8 @@ Run `iex -S mix`
 hand1 = "2H 3D 5S 9C KD"
 hand2 = "2C 3H 4S 8C AH"
 
-Poker.main(hand1) 
-Poker.main(hand2) 
+Poker.main(hand1, hand2) 
+
 
 ## Output
 2H 3D 5S 9C KD
